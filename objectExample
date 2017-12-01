@@ -10,13 +10,5 @@ function buyKimchee() {
   var price = qty * kimchee.cost;
   document.getElementById('confirm').innerHTML = kimchee.name;
   localStorage.setItem('firstFood',kimchee.name);
-  localStorage.setItem('firstCost',price);
-}
-
-function payUp() {
-  var subtotal = localStorage.getItem('subtotal');
-  var tax = 1.04712;
-  var grandtotal = subtotal * tax;
-  grandtotal.toFixed(2);
-  document.getElementById('receipt').innerHTML = "CASH CASH MONEY" + grandtotal;
+  localStorage.setItem('firstCost',kimchee.cost)
 }
