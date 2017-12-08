@@ -1,15 +1,88 @@
 .title {
   background-color:green;
-  color:blue;
+  color:black;
   font-size:50px;
   width:90%;
   height:100px;
-  border-style:dotted;
-  border-width:10px;
+  border-style:solid;
+  border-width:5px;
   margin:0;
   padding:0;
+  border-radius:15px;
 }
+
+#SkamTitle {
+  font-size:50px;
+  text-decoration:underline;
+  position:relative;
+}
+
 #firstPageImage {
+  background-color:red;
+}
+
+#boardGameBackground {
+  width:90%;
+  height:800px;
+  background-color:red;
+  border-width:5px;
+  border-style:solid;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:10px;
+  border-radius:15px;
+  position:relative;
+}
+
+#boardGOne {
+  background-image:url("http://titangamesandhobbies.com/wp-content/uploads/2015/07/01_carousel_ElementalEvilBoardGame_background.jpg");
+  background-size:cover;
+  background-color:blue;
+  width:405px;
+  height:400px;
+  border-width:10px;
+  float:left;
+}
+
+#boardGTwo {
+  background-color:purple;
+  width:405px;
+  height:400px;
+  border-width:10px;
+  float:left;
+}
+
+#boardGThree {
+  background-color:green;
+  width:405px;
+  height:400px;
+  border-width:10px;
+  float:left;
+}
+
+#boardGFour {
   background-image:url('https://cf.geekdo-images.com/wHE2aB_gPDS0fAEIi3GGwWoRl7U=/fit-in/1200x630/pic968280.jpg');
   background-size:cover;
+  background-color:blue;
+  width:405px;
+  height:400px;
+  border-width:10px;
+  float:left;
 }
+
+#boardGFive {
+  background-color:purple;
+  width:405px;
+  height:400px;
+  border-width:10px;
+  float:left;
+}
+
+#boardGSix {
+  background-color:green;
+  width:405px;
+  height:400px;
+  border-width:10px;
+  float:left;
+}
+
