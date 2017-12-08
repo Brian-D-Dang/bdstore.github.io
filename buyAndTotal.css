@@ -10,7 +10,9 @@
   padding:0;
   border-radius:15px;
 }
-
+.boardGameTitle{
+  background-color:blue;
+}
 #SkamTitle {
   font-size:50px;
   text-decoration:underline;
@@ -18,13 +20,13 @@
 }
 
 #firstPageImage {
-  background-color:red;
+  background-color:orange;
 }
 
 #boardGameBackground {
   width:90%;
   height:800px;
-  background-color:red;
+  background-color:green;
   border-width:5px;
   border-style:solid;
   margin-left:auto;
@@ -35,7 +37,7 @@
 }
 
 #boardGOne {
-  background-image:url("http://titangamesandhobbies.com/wp-content/uploads/2015/07/01_carousel_ElementalEvilBoardGame_background.jpg");
+  background-image:url("castleR.jpg");
   background-size:cover;
   background-color:blue;
   width:405px;
@@ -45,6 +47,8 @@
 }
 
 #boardGTwo {
+  background-image:url('elementalEvil.jpg');
+  background-size:cover;
   background-color:purple;
   width:405px;
   height:400px;
@@ -53,6 +57,8 @@
 }
 
 #boardGThree {
+  background-image:url('https://cf.geekdo-images.com/qn3XsQgF7cZuGZqsbZkoKQqLkI4=/fit-in/246x300/pic994268.jpg');
+  background-size:cover;
   background-color:green;
   width:405px;
   height:400px;
@@ -71,6 +77,8 @@
 }
 
 #boardGFive {
+  background-image:url('tomb.png');
+  background-size:cover;
   background-color:purple;
   width:405px;
   height:400px;
@@ -79,6 +87,8 @@
 }
 
 #boardGSix {
+  background-image:url('https://cf.geekdo-images.com/iTZcvNfBptXqWcMFkLPwvOjeRxA=/fit-in/1200x630/pic2419375.jpg');
+  background-size:cover;
   background-color:green;
   width:405px;
   height:400px;
