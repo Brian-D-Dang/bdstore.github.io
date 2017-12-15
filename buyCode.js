@@ -9,21 +9,26 @@
  function buyProduct() {
    var amount = document.getElementById('quantityOne').value;
    var productCostTotal = amount * products[0].costO;
-   receipt.push(amount + "x" +productCostTotal);
-   localStorage.setItem('product',receipt);
-   var GetTotal = localStorage.getItem('product');
+   receipt.push(productCostTotal);
    var stringit = JSON.stringify(receipt);
-   document.getElementById('test').innerHTML = receipt;
+   window.alert(amount + "x" +productCostTotal);
  }
  
  function nextPage() {
+   localStorage.setItem('product',receipt);
    location.href = "total.html";
  }
  
  function revealRecipt() {
    var GetTotal = localStorage.getItem('product');
-   var STRINGIT = JSON.stringify(GetTotal);
-   var ParseIt = JSON.parse(STRINGIT);
-   document.getElementById('Test').innerHTML = GetTotal;
-   window.alert(GetTotal);
+   var Total = receipt.push(GetTotal);
+   var ParseIt = JSON.parse(receipt);
+   var balance = 0;
+   for (i=0; i<receipt.length; i++){
+     balance += receipt[i];
+   }
+   var tax = 1.04712;
+   var GRANDTOTAL = balance * tax;
+   document.getElementById('Test').innerHTML = "GRANDTOTAL:" + ' ' +GRANDTOTAL.toFixed(2);
+   window.alert(GRANDTOTAL.toFixed(2));
  }

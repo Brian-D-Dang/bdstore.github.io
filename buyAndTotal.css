@@ -10,9 +10,11 @@
   padding:0;
   border-radius:15px;
 }
+
 .boardGameTitle{
   background-color:blue;
 }
+
 #SkamTitle {
   font-size:50px;
   text-decoration:underline;
@@ -21,6 +23,16 @@
 
 .PageImage {
   background-color:orange;
+}
+
+#GRANDTOTALPAGE {
+  margin:15px;
+  background-color:green;
+  width:400px;
+  height:100px;
+  border-width:5px;
+  border-style:solid;
+  border-radius:15px;
 }
 
 #boardGameBackground {
